@@ -62,8 +62,7 @@ module.exports = mongoose.model("User", UserSchema);
 #3. Score Calculation API
 routes/scoreRoutes.js
 
-javascript
-Copy code
+
 const express = require("express");
 const Score = require("../models/Score");
 
@@ -143,7 +142,7 @@ module.exports = router;
 Install Dependencies
 
 sh
-Copy code
+
 npx create-react-app client
 cd client
 npm install axios react-chartjs-2 chart.js
